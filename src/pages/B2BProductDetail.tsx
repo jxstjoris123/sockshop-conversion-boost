@@ -8,6 +8,7 @@ import B2BTrustBar from "@/components/b2b/B2BTrustBar";
 import B2BRelatedProducts from "@/components/b2b/B2BRelatedProducts";
 import B2BFAQ from "@/components/b2b/B2BFAQ";
 import B2BTrustedCompanies from "@/components/b2b/B2BTrustedCompanies";
+import B2BReviews from "@/components/b2b/B2BReviews";
 
 const B2BProductDetail = () => (
   <div className="min-h-screen bg-background">
@@ -39,6 +40,7 @@ const B2BProductDetail = () => (
       </div>
 
       <B2BTrustedCompanies />
+      <B2BReviews />
       <B2BRelatedProducts />
     </main>
     <Footer />
